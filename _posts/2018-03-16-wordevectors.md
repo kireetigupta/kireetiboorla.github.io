@@ -7,3 +7,12 @@ title: "Word Vectors"
   * CBOW
   * SkipGram
 * Glove
+
+# Word2Vec
+## The Idea
+## SkipGram
+### Math
+### Implementation
+## CBOW
+### Math
+### Implementation
