@@ -1,5 +1,5 @@
 ---
-layout:post
-title: "Sentiment Analysis"
+layout: post
+title: "Word Vectors"
 ---
 # Sentiment Analysis Using Deep Learning
