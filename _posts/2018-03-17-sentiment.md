@@ -12,4 +12,4 @@ title: "Sentiment Analysis"
 
 
 #### To Dos
-* Read ['Overview of RNN and varients]("https://machinelearningmastery.com/recurrent-neural-network-algorithms-for-deep-learning/")
+* Read [Overview of RNN and varients]("https://machinelearningmastery.com/recurrent-neural-network-algorithms-for-deep-learning/")
