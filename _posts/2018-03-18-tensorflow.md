@@ -1,8 +1,7 @@
 ---
-layout: posts
+layout: post
 title: "TensorFlow"
 ---
-
 
 
 ### References
