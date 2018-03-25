@@ -23,6 +23,25 @@ toekns=word_tokenize(raw) # from  nltk import word_tokenize
 2.[Stanford Tut](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html)
 
 
+### Processing search engine results. 
+Search engines do present certain difficulties like 
+1. Inconsistent results for the same query based on time, location.
+2. Change in the output pattern. 
+3. Limited search capabilities in terms of regex. 
+
+### Reading local files. 
+1.use open("filepath") to open file
+2. use read/readLines() to read. 
+```python
+with open("file") as f:
+  lines=f.read().splitlines() # or lines = f.readlines()
+  for x in lines:# or f:
+    print(x)
+```
+### Text Processing With Unicode
+
+
+
 
 ### References
 1.[http://www.nltk.org/book/ch03.html](NLTK Org book)
