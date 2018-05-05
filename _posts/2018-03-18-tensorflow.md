@@ -14,7 +14,7 @@ Note: include the session image. (git commit)
 Used to visualize the graph's learning. 
 
 
-###Example: adding two numbers. 
+### Example: adding two numbers. 
 ```python
 x=tf.placeholder(tf.float32,name="x")
 y=tf.placeholder(tf.float32,name="y")
