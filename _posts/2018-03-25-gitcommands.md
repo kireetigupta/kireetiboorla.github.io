@@ -44,7 +44,7 @@ options:
 --grep="search terms" --> greps commit messages. 
  
  
- ##Git tree strucutres
+ ## Git tree strucutres
  Git architecture has three stages:
  1.remote
  2.local repo
@@ -73,5 +73,18 @@ then they directly get added to the staging index.
     * git rm <file_name>
     * git mv <fil_path_old> <new_file_path>
 
-##
+## Undoing Changes
+### Undoing working directory changes
+```git 
+git checkout <branchName> <fileName> 
+<branchName> could be any branch name. 
+```
+Above command resets changes in the working directory to reflect those present in the branch <branchName>. 
+ 
+### Unstaging files
+If unintended files are staged use the reset's mixed mode to reset to a previous commit. ( by default to HEAD)
 
+ 
+ 
+ 
+ 
