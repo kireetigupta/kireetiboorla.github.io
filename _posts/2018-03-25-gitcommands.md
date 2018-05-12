@@ -37,15 +37,14 @@ commit = tell git to track changes to comitted files.
 git log helps viewing all the commits. 
 git log 
 options: 
--n <0> --> number of commit messages needs to be returned
---since=<date> --> return commits only after certain date
---until=<date>
---author=<name>
---grep="search terms" --> greps commit messages. 
+n <0> : number of commit messages needs to be returned
+since=<date> : return commits only after certain date
+until=<date>
+author=<name>
+grep="search terms" : greps commit messages. 
  
  
- ## Git tree strucutres
- Git architecture has three stages:
+ ## Git architecture has three stages:
  1.remote
  2.local repo
  3. staging index. 
