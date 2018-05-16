@@ -20,6 +20,6 @@ If the training data is not representative then the learning is limited.
  * http://dataportals.org/
  * http://opendatamonitor.eu/
  * http://quandl.com/
- * (Wikipedia’s list of Machine Learning datasets)[https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research]
- * (Quora.com question)[https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public]
- * (Datasets subreddit)[https://www.reddit.com/r/datasets]
+ * [Wikipedia’s list of Machine Learning datasets](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research)
+ * [Quora.com question](https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public)
+ * [Datasets subreddit](https://www.reddit.com/r/datasets)
