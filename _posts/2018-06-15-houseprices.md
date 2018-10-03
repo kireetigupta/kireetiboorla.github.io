@@ -1,5 +1,4 @@
----
-layout: posts
+--- layout: post
 title: House Price prediction
 ---
 
