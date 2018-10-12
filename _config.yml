@@ -1,4 +1,4 @@
 name: kireeti gupta
 markdown: kramdown
 
-theme: minima
+theme: jekyll-theme-slate

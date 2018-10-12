@@ -1,0 +1,16 @@
+---
+layout: default
+title: Kireeti Gupta
+---
+<p>
+  A brief about my academic and industrial projects.
+</p>
+
+<ul class="posts">
+
+  {% for post in site.posts %}
+  {% if post.category=="projects" %}
+  <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>

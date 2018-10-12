@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Text Pre-processing
+category: concepts
 ---
 
 #### Getting text from Web
@@ -11,7 +12,7 @@ response = request.urlopen(url)
 raw = response.read().decode('utf8')
 ```
 #### Dealing with HTML
-We will use beautifulSoup to do this. Learn as much as you can here. 
+We will use beautifulSoup to do this. Learn as much as you can here.
 #### Getting raw content from HTML page.
 ```python
 from bs4 import BeautifulSoup
@@ -23,15 +24,15 @@ toekns=word_tokenize(raw) # from  nltk import word_tokenize
 2.[Stanford Tut](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html)
 
 
-### Processing search engine results. 
-Search engines do present certain difficulties like 
+### Processing search engine results.
+Search engines do present certain difficulties like
 1. Inconsistent results for the same query based on time, location.
-2. Change in the output pattern. 
-3. Limited search capabilities in terms of regex. 
+2. Change in the output pattern.
+3. Limited search capabilities in terms of regex.
 
-### Reading local files. 
+### Reading local files.
 1.use open("filepath") to open file
-2. use read/readLines() to read. 
+2. use read/readLines() to read.
 ```python
 with open("file") as f:
   lines=f.read().splitlines() # or lines = f.readlines()

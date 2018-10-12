@@ -1,14 +1,9 @@
 ---
 layout: post
 title: "Sentiment Analysis"
+category: concepts
 ---
 # Sentiment Analysis Using Deep Learning
-
-
-
-
-
-
 
 
 #### To Dos

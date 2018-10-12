@@ -1,0 +1,18 @@
+---
+layout: default
+title: Kireeti Gupta
+---
+
+<p>
+  A list of exploratory data analysis that I have done till now.
+</p>
+
+
+<ul class="posts">
+
+  {% for post in site.posts %}
+  {% if post.category=="eda" %}
+  <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>

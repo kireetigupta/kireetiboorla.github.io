@@ -1,0 +1,18 @@
+---
+layout: default
+title: DS at Work
+---
+
+<p>
+  A survey of how data science is being put to use in industry.
+</p>
+
+
+<ul class="posts">
+
+  {% for post in site.posts %}
+  {% if post.category=="dsatWork" %}
+  <li<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
