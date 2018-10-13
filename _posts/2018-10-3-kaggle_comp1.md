@@ -19,10 +19,9 @@ histograms of vndor_id,passenger_count,
 plot number of pick ups per day, hour
 
 ## To do
-1. Reformatting features
+1. Cleaning : Reformatting features
    1. break date-time into date and time columns
-   2. 
-2. checking consistency: Ideal to check for some consistency between columns that are related.
+2. Validation:  checking consistency: Ideal to check for some consistency between columns that are related.
   1. trip_duration is based on pickup_datetime, dropoff_datetime ?
 3. Visualization
   1. start,end locations on maps
